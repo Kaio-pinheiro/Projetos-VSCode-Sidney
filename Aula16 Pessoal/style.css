@@ -1,0 +1,74 @@
+header{
+    .navbar{
+        background-color: rgb(0, 0, 0) !important;
+        
+    }
+}
+
+a {
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+}
+
+.modal-content {
+    .modal-header {
+        justify-content: space-between;
+    }
+}
+
+footer{
+    background-color: rgb(0, 0, 0) !important;
+    margin-top: 120px;
+}
+
+.span-footer, .mb-1{
+    color: antiquewhite;
+}
+
+.mb-4{
+    background-color: rgba(0, 0, 0, 0.87) !important; 
+    border-color: whitesmoke;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    margin-top: 250px;
+    
+}
+
+.in {
+    opacity: 1 !important;
+}
+
+.modal-backdrop{
+    z-index: auto;
+}
+
+.form-control{
+    text-align: center;
+}
+
+.card img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 100px; 
+}
+
+

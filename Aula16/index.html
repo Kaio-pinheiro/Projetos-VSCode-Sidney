@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fabricante de Carros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    
+    <!--cadastro-->
+    <div id="container-cadastro">
+        <div class="form-container">
+            <h2>Cadastro de Fabricante</h2>
+            <img src="fabricar.png" alt="Logo" class="logo">
+            <form id="fabricanteForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="nacionalidade">Nacionalidade:</label>
+                <input type="text" id="nacionalidade" name="nacionalidade" required>
+
+                <button type="button" onclick="cadastrarFabricante()">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <!--fim cadastro-->
+    <h1>Fabricante de Carros</h1>
+    <div id="fabricantes-container" class="card-container">
+       
+    </div></br></br></br>
+ 
+    <h1>Modelo de Carros</h1>
+    <div id="modelos-container" class="card-container">
+ 
+    </div>
+   
+<script src='script.js'></script>
+</body>
+</html>
+ 
