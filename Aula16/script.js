@@ -30,31 +30,31 @@ document.addEventListener("DOMContentLoaded", () => {
                     `;
                     fabricantesContainer.appendChild(card);  // Adiciona o card ao container
 
-                    card.addEventListener('click', function(){
+                    card.addEventListener('click', function () {
                         // Confirmação de exclusão
-                        if(!confirm("Deseja realmente excluir o fabricante " + fabricante.nome + "?")){
+                        if (!confirm("Deseja realmente excluir o fabricante " + fabricante.nome + "?")) {
                             return;
                         }
 
                         // Configuração para o envio da requisição DELETE
-                        fetch(`http://localhost:8080/fabricante/${fabricante.id}`,{
+                        fetch(`http://localhost:8080/fabricante/${fabricante.id}`, {
                             method: "DELETE",
                             headers: {
                                 "Content-Type": "application/json"
                             }
                         })
-                        .then(response => {
-                            if(response.ok){
-                                alert(`Fabricante ${fabricante.nome} excluído com sucesso!`);
-                                // Aqui você pode adicionar lógica adicional, como atualizar a lista de fabricantes na página
-                            } else {
-                                alert("Erro ao excluir o fabricante " + fabricante.nome + ". Verifique o ID e tente novamente.");
-                            }
-                        })
-                        .catch(error => {
-                            console.error("Erro:", error);
-                            alert("Erro ao excluir o fabricante " + fabricante.nome + ". Verifique a conexão com o servidor.");
-                        });
+                            .then(response => {
+                                if (response.ok) {
+                                    alert(`Fabricante ${fabricante.nome} excluído com sucesso!`);
+                                    // Aqui você pode adicionar lógica adicional, como atualizar a lista de fabricantes na página
+                                } else {
+                                    alert("Erro ao excluir o fabricante " + fabricante.nome + ". Verifique o ID e tente novamente.");
+                                }
+                            })
+                            .catch(error => {
+                                console.error("Erro:", error);
+                                alert("Erro ao excluir o fabricante " + fabricante.nome + ". Verifique a conexão com o servidor.");
+                            });
                     })
                 });
             })
