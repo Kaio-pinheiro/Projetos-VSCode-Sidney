@@ -1,14 +1,15 @@
-header{
-    .navbar{
+header {
+    .navbar {
         background-color: rgb(0, 0, 0) !important;
-        
+
     }
 }
 
 a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
 
@@ -18,21 +19,22 @@ h1{
     }
 }
 
-footer{
+footer {
     background-color: rgb(0, 0, 0) !important;
     margin-top: 120px;
 }
 
-.span-footer, .mb-1{
+.span-footer,
+.mb-1 {
     color: antiquewhite;
 }
 
-.mb-4{
-    background-color: rgba(0, 0, 0, 0.87) !important; 
+.mb-4 {
+    background-color: rgba(0, 0, 0, 0.87) !important;
     border-color: whitesmoke;
 }
 
-.modal{
+.modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -44,31 +46,29 @@ footer{
     -webkit-overflow-scrolling: touch;
     outline: 0;
     margin-top: 250px;
-    
+
 }
 
 .in {
     opacity: 1 !important;
 }
 
-.modal-backdrop{
+.modal-backdrop {
     z-index: auto;
 }
 
-.form-control{
+.form-control {
     text-align: center;
 }
 
 .card img {
-    height: 200px; 
-    object-fit: cover; 
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; 
-    height: 100px; 
+    justify-content: flex-end;
+    height: 100px;
 }
-
-

@@ -247,4 +247,3 @@ function carregarFornecedoresNoProduto() {
             fornecedorSelect.innerHTML = '<option value="">Erro ao carregar fornecedores!</option>';
         });
 }
-        
