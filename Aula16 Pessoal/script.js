@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         }
                         console.log("Tentando excluir produto com ID:", produto.id); // testatdno
                         // Configuração para o envio da requisição DELETE
-                        fetch(`http://localhost:8080/produto/${produto.id}`, {
+                        fetch(`http://localhost:8080/produto/${produto.idProduto}`, {
                             method: "DELETE",
                             headers: {
                                 "Content-Type": "application/json"
