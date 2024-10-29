@@ -16,8 +16,7 @@ h1 {
     padding-left: 125px;
     height: auto;
     display: inline-block;
-    animation: oscillate 2.5s infinite ease-in-out;
-    /* Efeito pulando */
+    animation: oscillate 2.5s infinite ease-in-out;   /* Efeito pulando */
 }
 
 /*Formulário de cadastro*/
