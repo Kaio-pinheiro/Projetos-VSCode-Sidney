@@ -3,40 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     .navbar {
         background-color: rgb(0, 0, 0) !important;
-
     }
 }
+
 /* Estiliza o elemento de navegação dentro do header. Define o fundo da barra de navegação como preto. O "!important" garante que essa cor tenha prioridade sobre outros estilos. */
 
 a {
     text-decoration: none;
 }
+
 /* Remove o sublinhado padrão dos links (elementos <a>). */
 
 h1 {
     font-size: 60px;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /*sombra pra aparecer o titulo*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /*sombra pra aparecer o titulo*/
 }
 
-.top-text{
+.top-text {
     font-size: 18px;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /*sombra pra aparecer o titulo*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /*sombra pra aparecer o titulo*/
 }
 
 
 /* Define o tamanho da fonte para títulos <h1> como 50px. */
 
 body {
-    background-image: url('./Assets/hamburgues.webp'); /* caminho para sua imagem */
-    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-position: center; /* Centraliza a imagem no fundo */
-    margin: 0; /* Remove margens padrão */
+    background-image: url('./Assets/hamburgues.webp');
+    /* caminho para sua imagem */
+    background-size: cover;
+    /* Faz com que a imagem cubra todo o fundo */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    background-position: center;
+    /* Centraliza a imagem no fundo */
+    margin: 0;
+    /* Remove margens padrão */
 }
 
 .modal-content {
@@ -44,25 +53,29 @@ body {
         justify-content: space-between;
     }
 }
+
 /* Estiliza o cabeçalho do modal (janela pop-up) para que os elementos dentro do header fiquem distribuídos entre as extremidades (esquerda e direita). */
 
 footer {
     background-color: rgb(0, 0, 0) !important;
     margin-top: 120px;
-    
+
 }
+
 /* Define a cor de fundo do rodapé como preto e adiciona um espaçamento de 120px acima do rodapé. O "!important" assegura que essa cor prevaleça sobre outros estilos. */
 
 .span-footer,
 .mb-1 {
     color: antiquewhite;
 }
+
 /* Define a cor do texto de elementos com as classes .span-footer e .mb-1 como antiquewhite (um tom claro). */
 
 .mb-4 {
     background-color: rgba(0, 0, 0, 0.87) !important;
     border-color: whitesmoke;
 }
+
 /* Aplica um fundo quase preto (com 87% de opacidade) aos elementos com a classe .mb-4 e define a cor da borda como "whitesmoke" (um tom claro). */
 
 .modal {
@@ -78,6 +91,7 @@ footer {
     outline: 0;
     margin-top: 250px;
 }
+
 /* Estiliza a janela modal:
    - Fixa a posição no centro da tela.
    - Define o modal para cobrir a tela inteira (top: 0, right: 0, bottom: 0, left: 0).
@@ -91,22 +105,26 @@ footer {
 .in {
     opacity: 1 !important;
 }
+
 /* Força a opacidade de elementos com a classe `.in` para 1 (totalmente visível). */
 
 .modal-backdrop {
     z-index: auto;
 }
+
 /* Ajusta o `z-index` (nível de empilhamento) do fundo escuro do modal para ser automático (herdado). */
 
 .form-control {
     text-align: center;
 }
+
 /* Centraliza o texto dentro dos elementos com a classe `.form-control` (geralmente inputs e selects do Bootstrap). */
 
 .card img {
     height: 200px;
     object-fit: cover;
 }
+
 /* Define a altura das imagens dentro das `.card` como 200px e ajusta o tamanho das imagens para preencher o contêiner (`object-fit: cover`), evitando distorção. */
 
 .card-body {
@@ -115,6 +133,7 @@ footer {
     justify-content: flex-end;
     height: 100px;
 }
+
 /* Estiliza o corpo das cartas (cards):
    - Define um layout flexbox para organizar os elementos dentro da carta.
    - Alinha os itens verticalmente em uma coluna.
